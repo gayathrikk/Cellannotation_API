@@ -1,97 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-13T17:05:22 IST" name="Default suite" finished-at="2023-09-13T17:05:41 IST" duration-ms="18514">
+  <suite started-at="2023-09-13T19:38:53 IST" name="Default suite" finished-at="2023-09-13T19:38:56 IST" duration-ms="2693">
     <groups>
     </groups>
-    <test started-at="2023-09-13T17:05:22 IST" name="Default test" finished-at="2023-09-13T17:05:41 IST" duration-ms="18514">
+    <test started-at="2023-09-13T19:38:53 IST" name="Default test" finished-at="2023-09-13T19:38:56 IST" duration-ms="2693">
       <class name="Sanitytesting.cellannotation">
-        <test-method signature="Tileloading()[pri:1, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T17:05:22 IST" name="Tileloading" finished-at="2023-09-13T17:05:36 IST" duration-ms="13515" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tileloading -->
-        <test-method signature="Ep1Loading()[pri:2, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T17:05:36 IST" name="Ep1Loading" finished-at="2023-09-13T17:05:36 IST" duration-ms="56" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <404>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <404>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at Sanitytesting.cellannotation.Ep1Loading(cellannotation.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Ep1Loading -->
-        <test-method signature="Ep4Loading()[pri:3, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T17:05:36 IST" name="Ep4Loading" finished-at="2023-09-13T17:05:38 IST" duration-ms="2546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Ep4Loading -->
-        <test-method signature="Ep7Loading()[pri:4, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T17:05:38 IST" name="Ep7Loading" finished-at="2023-09-13T17:05:40 IST" duration-ms="1949" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Ep7Loading -->
-        <test-method signature="save()[pri:5, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T17:05:40 IST" name="save" finished-at="2023-09-13T17:05:41 IST" duration-ms="404" status="PASS">
+        <test-method signature="save()[pri:5, instance:Sanitytesting.cellannotation@1b2abca6]" started-at="2023-09-13T19:38:53 IST" name="save" finished-at="2023-09-13T19:38:56 IST" duration-ms="2656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- save -->
