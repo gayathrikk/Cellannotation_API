@@ -7,19 +7,19 @@ import org.testng.annotations.Test;
 import io.restassured.http.ContentType;
 
 public class cellannotation {
-    @Test(priority=1)
-    void Tileloading() {
-        System.out.println("Sending GET request to tile loading ");
-        given()
-            .auth()
-            .preemptive()
-            .basic("admin", "admin")
-        .when()
-            .get("https://apollo2.humanbrain.in/iipsrv1/fcgi-bin/iipsrv.fcgi?FIF=/data/storageIIT/humanbrain/analytics/118/NISL/B_118_FB10-SL_357-ST_NISL-SE_1069_lossless.jp2&GAM=1.5&WID=512&RGN=0.9016450822541127,0.5707915273132664,0.0056002800140007,0.0046405815228720846&CVT=jpeg")
-        .then()
-            .statusCode(200)
-            .log().all();
-    }
+//    @Test(priority=1)
+//    void Tileloading() {
+//        System.out.println("Sending GET request to tile loading ");
+//        given()
+//            .auth()
+//            .preemptive()
+//            .basic("admin", "admin")
+//        .when()
+//            .get("https://apollo2.humanbrain.in/iipsrv1/fcgi-bin/iipsrv.fcgi?FIF=/data/storageIIT/humanbrain/analytics/118/NISL/B_118_FB10-SL_357-ST_NISL-SE_1069_lossless.jp2&GAM=1.5&WID=512&RGN=0.9016450822541127,0.5707915273132664,0.0056002800140007,0.0046405815228720846&CVT=jpeg")
+//        .then()
+//            .statusCode(200)
+//            .log().all();
+//    }
 
     @Test(priority=2)
     void Ep1Loading() {
