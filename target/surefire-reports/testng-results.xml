@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-13T16:39:04 IST" name="Default suite" finished-at="2023-09-13T16:39:54 IST" duration-ms="49680">
+  <suite started-at="2023-09-13T16:42:55 IST" name="Surefire suite" finished-at="2023-09-13T16:43:13 IST" duration-ms="17944">
     <groups>
     </groups>
-    <test started-at="2023-09-13T16:39:04 IST" name="Default test" finished-at="2023-09-13T16:39:54 IST" duration-ms="49680">
+    <test started-at="2023-09-13T16:42:55 IST" name="Surefire test" finished-at="2023-09-13T16:43:13 IST" duration-ms="17944">
       <class name="Sanitytesting.cellannotation">
-        <test-method signature="Tileloading()[pri:1, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T16:39:05 IST" name="Tileloading" finished-at="2023-09-13T16:39:41 IST" duration-ms="36111" status="PASS">
+        <test-method signature="Tileloading()[pri:1, instance:Sanitytesting.cellannotation@fbd1f6]" started-at="2023-09-13T16:42:55 IST" name="Tileloading" finished-at="2023-09-13T16:43:08 IST" duration-ms="12815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tileloading -->
-        <test-method signature="Ep1Loading()[pri:2, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T16:39:41 IST" name="Ep1Loading" finished-at="2023-09-13T16:39:41 IST" duration-ms="524" status="FAIL">
+        <test-method signature="Ep1Loading()[pri:2, instance:Sanitytesting.cellannotation@fbd1f6]" started-at="2023-09-13T16:43:08 IST" name="Ep1Loading" finished-at="2023-09-13T16:43:08 IST" duration-ms="74" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -74,28 +74,33 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ep1Loading -->
-        <test-method signature="Ep4Loading()[pri:3, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T16:39:41 IST" name="Ep4Loading" finished-at="2023-09-13T16:39:47 IST" duration-ms="6031" status="PASS">
+        <test-method signature="Ep4Loading()[pri:3, instance:Sanitytesting.cellannotation@fbd1f6]" started-at="2023-09-13T16:43:08 IST" name="Ep4Loading" finished-at="2023-09-13T16:43:10 IST" duration-ms="2404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ep4Loading -->
-        <test-method signature="Ep7Loading()[pri:4, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T16:39:47 IST" name="Ep7Loading" finished-at="2023-09-13T16:39:50 IST" duration-ms="2915" status="PASS">
+        <test-method signature="Ep7Loading()[pri:4, instance:Sanitytesting.cellannotation@fbd1f6]" started-at="2023-09-13T16:43:10 IST" name="Ep7Loading" finished-at="2023-09-13T16:43:12 IST" duration-ms="1979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ep7Loading -->
-        <test-method signature="save()[pri:5, instance:Sanitytesting.cellannotation@209da20d]" started-at="2023-09-13T16:39:50 IST" name="save" finished-at="2023-09-13T16:39:54 IST" duration-ms="4032" status="PASS">
+        <test-method signature="save()[pri:5, instance:Sanitytesting.cellannotation@fbd1f6]" started-at="2023-09-13T16:43:12 IST" name="save" finished-at="2023-09-13T16:43:13 IST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- save -->
       </class> <!-- Sanitytesting.cellannotation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

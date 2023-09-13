@@ -5,7 +5,7 @@
     <classes>
       <class name="Sanitytesting.cellannotation">
         <methods>
-          <include name="Tileloading"/>
+          <include name="Ep1Loading"/>
         </methods>
       </class> <!-- Sanitytesting.cellannotation -->
     </classes>
