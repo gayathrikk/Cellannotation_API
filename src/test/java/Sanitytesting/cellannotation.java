@@ -78,7 +78,7 @@ private static final int maxLength = 0;
         System.out.println("Sending POST request to save ");
        
         
-    File file = new File("/home/nathan/Desktop/automationtask/CellannotationAPI/src/test/resources/celldetectionSaveapi.txt");
+    File file = new File("src/test/resources/celldetectionSaveapi.txt");
         given()
             .auth()
             .preemptive()
